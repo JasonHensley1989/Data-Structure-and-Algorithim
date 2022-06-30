@@ -28,3 +28,11 @@ const odd = arr.filter(arr1 => {
 })
 
 console.log(odd);
+
+// loop through 1 - 10
+let num = 0;
+for(let i = 1; i < 11; i++) {
+    num++; 
+    console.log(num)
+}
+
