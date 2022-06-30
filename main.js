@@ -19,3 +19,12 @@ const even = arr.filter(arr => {
 })
 
 console.log(even);
+
+// find odd numbers
+const arr1 = [1, 2, 3, 4, 5, 6, 8, 9, 10];
+
+const odd = arr.filter(arr1 => {
+    return arr1 % 2 !== 0;
+})
+
+console.log(odd);
