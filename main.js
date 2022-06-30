@@ -37,5 +37,15 @@ const count = () => {
         console.log(num)
     }
 }
-
 count();
+
+// reverse 10 - 1
+const reverseCount = () => {
+    let num = 10;
+    for(let i = 10; i > 0; i--) {
+        num--; 
+        console.log(num)
+    }
+}
+
+reverseCount();
