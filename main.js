@@ -103,3 +103,10 @@ const direction = (num) => {
 
 direction(18)
 
+
+const multiply = (num, num2) {
+    let result = num * num2;
+    return result
+  }
+  
+  multiply(2, 4)
