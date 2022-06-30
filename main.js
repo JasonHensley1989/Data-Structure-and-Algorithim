@@ -61,3 +61,15 @@ const logEven = (num) => {
 }
 
 logEven(20);
+
+// count to 15 and log odd numbers
+const logOdd = (num) => {
+    while(num < 16) {
+        if(num % 2 !== 0) {
+            console.log(num)
+        }
+        num++;
+    }
+}
+
+logOdd(0);
