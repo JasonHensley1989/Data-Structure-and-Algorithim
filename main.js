@@ -77,11 +77,29 @@
 // multiply by 3, 5, and 7
 
 const chooseMult = (num) => {
+    let newArr = [];
     let result = num * 3;
     let result1 = num * 5;
     let result2 = num * 7;
-    console.log(result, result1, result2)
+    newArr.push(result, result1, result2)
+    console.log(newArr)
 }
 
 chooseMult(10);
+
+// find direction
+
+const direction = (num) => {
+    if(num % 5 === 0) {
+        console.log('West')
+    } else if(num % 4 === 0) {
+        console.log('North')
+    } else if(num % 3 === 0) {
+        console.log('South');
+    } else if(num % 2 == 0) {
+        console.log('East')
+}
+}
+
+direction(18)
 
