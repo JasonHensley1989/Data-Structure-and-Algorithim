@@ -49,3 +49,15 @@ const reverseCount = () => {
 }
 
 reverseCount();
+
+// count from twenty and log even number
+const logEven = (num) => {
+    while(num > 0) {
+        if(num % 2 === 0) {
+            console.log(num)
+        }
+        num--;
+    }
+}
+
+logEven(20);
