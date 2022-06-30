@@ -9,3 +9,13 @@ const findArea = (l, w) => {
 }
 
 findArea(7, 8);
+
+// find even numbers
+
+const arr = [1, 2, 3, 4, 5, 6, 8, 9, 10];
+
+const even = arr.filter(arr => {
+    return arr % 2 === 0;
+})
+
+console.log(even);
