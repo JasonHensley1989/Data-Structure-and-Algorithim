@@ -103,10 +103,23 @@ const direction = (num) => {
 
 direction(18)
 
-
-const multiply = (num, num2) {
+// multiply function
+const multiply = (num, num2) => {
     let result = num * num2;
     return result
   }
   
   multiply(2, 4)
+
+
+// test string for letter x
+
+const str = 'Hello my friends, I like to play the xylophone';
+
+// str.indexOf('x');
+if(str.indexOf('a')) {
+    console.log('True')
+} else {
+    console.log('False')
+}
+
