@@ -123,3 +123,10 @@ if(str.indexOf('a')) {
     console.log('False')
 }
 
+// test to see if decimal operators work the same as integers
+const testDecimal = (dec, dec2) => {
+    let result = dec * dec2;
+    console.log(result)
+}
+
+testDecimal(0.2, 0.3);
