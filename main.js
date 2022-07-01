@@ -130,3 +130,15 @@ const testDecimal = (dec, dec2) => {
 }
 
 testDecimal(0.2, 0.3);
+
+// find string length
+const testStr = 'Hell0, my name is Jason Hensley';
+console.log(testStr.length)
+
+
+// Array work
+const arr1 = ['Mom', 50, "Anna", 27];
+const arr2 = ['John', 48, "Geo", 28];
+
+// tests array access
+console.log(arr1[0], arr1[1], arr2[0], arr2[1]);
