@@ -175,3 +175,11 @@ const numToString = (num) => {
 }
 
 numToString(2);
+
+// convert float to integer
+const convertFloat = (float) => {
+    let result = parseInt(float);
+    console.log(result);
+}
+
+convertFloat(4.4);
