@@ -186,5 +186,23 @@ convertFloat(4.4);
 
 // convert string to array
 const animals = "Dog, Horse, Cow, Racoon";
-let animalArr = animals.split();
-console.log(animalArr)
+let animalArr = animals.split("");
+let animalArr2 = animals.split();
+console.log(animalArr2, animalArr);
+
+// test array for string and return item index in front
+const line =  ['sheep', 'sheep', 'sheep', 'sheep', 'sheep', 'wolf', 'sheep'];
+const line2 =  ['sheep', 'sheep', 'sheep', 'sheep', 'wolf', 'sheep'];
+// need to loop through array, 
+const lineSearch = (arr) => {
+    for(let i = 0; i < arr.length; i++) {
+        console.log(arr[i])
+        if(arr[i] === 'wolf') {
+            console.log(i)
+        }
+    }
+}
+
+lineSearch(line);
+lineSearch(line2);
+
