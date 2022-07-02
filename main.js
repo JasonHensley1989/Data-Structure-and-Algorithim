@@ -167,3 +167,11 @@ const convertNum = (num) => {
 }
 
 convertNum(10);
+
+// convert number to string
+const numToString = (num) => {
+    let str = num.toString();
+    console.log(typeof str);
+}
+
+numToString(2);
