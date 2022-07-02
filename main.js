@@ -148,3 +148,13 @@ const arr3 = [...arr1, ...arr2];
 console.log(arr3)
 console.log(arr2)
 
+// square function
+const square = (num, num2, num3, num4) => {
+    const result = num * num;
+    const result2 = num2* num2;
+    const result3 = num3* num3;
+    const result4 = num4 * num4;
+    console.log(result, result2, result3, result4);
+}
+
+square(4, 2, 5, 6);
