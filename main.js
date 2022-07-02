@@ -228,4 +228,26 @@ const countCard = (card) => {
 countCard(3);
 countCard(2);
 
+// traffic light controller
+// will take in 3 arrays 
+// if array is empty red light
+// if array is not empty
+// find length of greatest
+// and turn light to green
+const north = [];
+let northLight = 'green';
+const west = ['car'];
+let westLight = 'green';
+const east = ['car', 'car', 'truck'];
+let eastLight = 'green';
+
+const trafControl = (north, west, east) => {
+    if(north === []) {
+        northLight = 'red';
+        console.log(northLight);
+    }
+}
+
+trafControl(north, west, east);
+
 
