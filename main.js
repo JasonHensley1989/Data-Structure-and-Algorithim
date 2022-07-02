@@ -183,3 +183,8 @@ const convertFloat = (float) => {
 }
 
 convertFloat(4.4);
+
+// convert string to array
+const animals = "Dog, Horse, Cow, Racoon";
+let animalArr = animals.split();
+console.log(animalArr)
