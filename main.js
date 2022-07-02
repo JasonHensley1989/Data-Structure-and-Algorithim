@@ -154,7 +154,8 @@ const square = (num, num2, num3, num4) => {
     const result2 = num2* num2;
     const result3 = num3* num3;
     const result4 = num4 * num4;
-    console.log(result, result2, result3, result4);
+    let finalResult = result + result2 + result3 + result4;
+    console.log(finalResult)
 }
 
 square(4, 2, 5, 6);
