@@ -234,20 +234,27 @@ countCard(2);
 // if array is not empty
 // find length of greatest
 // and turn light to green
-const north = [];
+let north = [];
 let northLight = 'green';
-const west = ['car'];
+let west = ['car'];
 let westLight = 'green';
-const east = ['car', 'car', 'truck'];
+let east = ['car', 'car', 'truck'];
 let eastLight = 'green';
 
 const trafControl = (north, west, east) => {
-    if(north === []) {
+    if(north == []) {
         northLight = 'red';
         console.log(northLight);
+    } else if(west === []) {
+        westLight = 'red';
+        console.log(westLight);
+    } else if(east === []) {
+        eastLight = 'red';
+        console.log(eastLight);
     }
+
 }
 
 trafControl(north, west, east);
 
-
+console.log(northLight, westLight, eastLight)
