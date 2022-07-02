@@ -159,3 +159,11 @@ const square = (num, num2, num3, num4) => {
 }
 
 square(4, 2, 5, 6);
+
+// convert to opposite number
+const convertNum = (num) => {
+    let result = num * -1;
+    console.log(result)   
+}
+
+convertNum(10);
