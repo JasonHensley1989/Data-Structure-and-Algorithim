@@ -142,3 +142,9 @@ const arr2 = ['John', 48, "Geo", 28];
 
 // tests array access
 console.log(arr1[0], arr1[1], arr2[0], arr2[1]);
+
+// join arrays
+const arr3 = [...arr1, ...arr2];
+console.log(arr3)
+console.log(arr2)
+
