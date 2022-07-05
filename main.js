@@ -272,3 +272,14 @@ const playingBanjo = (name) => {
 playingBanjo('rodney');
 
 // reverse list order
+const testList = ['a', 'b', 'c']
+
+const reverseList = (arr) => {
+    let result = arr.reverse();
+    console.log(result);
+}
+
+reverseList(testList)
+
+
+
