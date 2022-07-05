@@ -234,27 +234,39 @@ countCard(2);
 // if array is not empty
 // find length of greatest
 // and turn light to green
-let north = [];
-let northLight = 'green';
-let west = ['car'];
-let westLight = 'green';
-let east = ['car', 'car', 'truck'];
-let eastLight = 'green';
+// let north = [];
+// let northLight = 'green';
+// let west = ['car'];
+// let westLight = 'green';
+// let east = ['car', 'car', 'truck'];
+// let eastLight = 'green';
 
-const trafControl = (north, west, east) => {
-    if(north == []) {
-        northLight = 'red';
-        console.log(northLight);
-    } else if(west === []) {
-        westLight = 'red';
-        console.log(westLight);
-    } else if(east === []) {
-        eastLight = 'red';
-        console.log(eastLight);
-    }
+// const trafControl = (north, west, east) => {
+//     if(north == []) {
+//         northLight = 'red';
+//         console.log(northLight);
+//     } else if(west === []) {
+//         westLight = 'red';
+//         console.log(westLight);
+//     } else if(east === []) {
+//         eastLight = 'red';
+//         console.log(eastLight);
+//     }
 
+// }
+
+// trafControl(north, west, east);
+
+// console.log(northLight, westLight, eastLight)
+
+// above problem work in progress
+
+// create function which answers whether name starts with r if yes
+// return yes if no etc.
+
+const playingBanjo = (name) => {
+    let result =  name + (name[0].toLowerCase() == 'r' ? ' plays' : ' does not play') + ' banjo';
+    console.log(result);
 }
 
-trafControl(north, west, east);
-
-console.log(northLight, westLight, eastLight)
+playingBanjo('rodney');
