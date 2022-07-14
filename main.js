@@ -281,5 +281,7 @@ const reverseList = (arr) => {
 
 reverseList(testList)
 
+// create palindrome
+
 
 
