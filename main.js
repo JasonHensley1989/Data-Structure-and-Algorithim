@@ -283,5 +283,17 @@ reverseList(testList)
 
 // create palindrome
 
+const lighter = 'red, liquidy, lights, empty';
 
+const testLight = (string) => {
+    if(string === 'empty') {
+        return "tis bitch cant light"
+    } else {
+        return 'youlit thje lgith'
+    }
+}
+
+for(let i = 1; i < 11; i++) {
+    
+}
 
