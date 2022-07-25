@@ -264,36 +264,37 @@ countCard(2);
 // create function which answers whether name starts with r if yes
 // return yes if no etc.
 
-const playingBanjo = (name) => {
-    let result =  name + (name[0].toLowerCase() == 'r' ? ' plays' : ' does not play') + ' banjo';
-    console.log(result);
-}
+// const playingBanjo = (name) => {
+//     let result =  name + (name[0].toLowerCase() == 'r' ? ' plays' : ' does not play') + ' banjo';
+//     console.log(result);
+// }
 
-playingBanjo('rodney');
+// playingBanjo('rodney');
 
-// reverse list order
-const testList = ['a', 'b', 'c']
+// // reverse list order
+// const testList = ['a', 'b', 'c']
 
-const reverseList = (arr) => {
-    let result = arr.reverse();
-    console.log(result);
-}
+// const reverseList = (arr) => {
+//     let result = arr.reverse();
+//     console.log(result);
+// }
 
-reverseList(testList)
+// reverseList(testList)
 
-// create palindrome
+// // create palindrome
 
-const lighter = 'red, liquidy, lights, empty';
+// const lighter = 'red, liquidy, lights, empty';
 
-const testLight = (string) => {
-    if(string === 'empty') {
-        return "tis bitch cant light"
-    } else {
-        return 'youlit thje lgith'
-    }
-}
+// const testLight = (string) => {
+//     if(string === 'empty') {
+//         return "tis bitch cant light"
+//     } else {
+//         return 'youlit thje lgith'
+//     }
+// }
 
-for(let i = 1; i < 11; i++) {
+// for(let i = 1; i < 11; i++) {
     
-}
+// }
 
+// algorithims for this week plans
