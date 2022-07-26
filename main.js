@@ -299,4 +299,4 @@ countCard(2);
 
 // algorithims for this week plans
 
-// find the square root for three methods
+// find the square root for three methodss
