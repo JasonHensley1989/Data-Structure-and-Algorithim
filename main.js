@@ -329,3 +329,4 @@ countCard(2);
 // golfScore(5, 4);
 // object literal insertion function
 // next up record colection
+// solve linear equations
