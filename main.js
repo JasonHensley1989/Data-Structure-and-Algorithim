@@ -353,6 +353,6 @@ countCard(2);
 // console.log(x7.toString());
 
 // function to return power of number
-const pow = () => {
-    return 'something'
-}
+// const pow = () => {
+//     return 'something'
+// }
