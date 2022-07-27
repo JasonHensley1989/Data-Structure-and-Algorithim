@@ -330,3 +330,26 @@ countCard(2);
 // object literal insertion function
 // next up record colection
 // solve linear equations
+//solve linear equations
+// var x = nerdamer.solve('(x+1)*3=x-6', 'x');
+// console.log(x.toString());
+// //quadratic
+// var x2 = nerdamer.solve('x^2-8x+15', 'x');
+// console.log(x2.toString());
+// //quadratic algebraically
+// var x3 = nerdamer.solve('x^2-ax+3*b', 'x');
+// console.log(x3.toString());
+// //multiple roots
+// var x4 = nerdamer.solve('x^6+41*x^5+652*x^4+5102*x^3+20581*x^2+40361*x+30030', 'x');
+// console.log(x4.toString());
+// //functions - numerically around to zero up to a predefined range
+// var x5 = nerdamer.solve('cos(x)^2+sin(x-1)', 'x');
+// console.log(x5.toString());
+// //solve a system of linear equations
+// var x6 = nerdamer.solveEquations(['2x+y=7', 'x-y+3z=11', 'y-z=-1']);
+// console.log(x6.toString());
+// //solve a system of nonlinear equations
+// var x7 = nerdamer.solveEquations(['3*x^2/y=2', 'z*x*y-1=35', '5*z^2+7=52']);
+// console.log(x7.toString());
+
+// function to return power of number
