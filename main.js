@@ -380,3 +380,5 @@ const string = prompt('Enter a string or number: ');
 const value = validatePalin(string);  
   
 console.log(value);  
+
+// palindrome 
