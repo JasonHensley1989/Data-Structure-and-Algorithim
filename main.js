@@ -356,3 +356,5 @@ countCard(2);
 // const pow = () => {
 //     return 'something'
 // }
+
+// palindrome algorithm
