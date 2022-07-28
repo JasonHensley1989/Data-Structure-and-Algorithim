@@ -381,4 +381,4 @@ const value = validatePalin(string);
   
 console.log(value);  
 
-// palindrome 
+// palindrome 2
