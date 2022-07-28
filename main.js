@@ -358,27 +358,50 @@ countCard(2);
 // }
 
 // palindrome algorithm
-function validatePalin(str) {  
+// function validatePalin(str) {  
   
-    // get the total length of the words  
-    const len = string.length;  
+//     // get the total length of the words  
+//     const len = string.length;  
   
-    // Use for loop to divide the words into 2 half  
-    for (let i = 0; i < len / 2; i++) {  
+//     // Use for loop to divide the words into 2 half  
+//     for (let i = 0; i < len / 2; i++) {  
   
-        // validate the first and last characters are same  
-        if (string[i] !== string[len - 1 - i]) {  
-            alert( 'It is not a palindrome');  
-        }  
-    }  
-    alert( 'It is a palindrome');  
-}  
+//         // validate the first and last characters are same  
+//         if (string[i] !== string[len - 1 - i]) {  
+//             alert( 'It is not a palindrome');  
+//         }  
+//     }  
+//     alert( 'It is a palindrome');  
+// }  
   
-// accept the string or number from the prompt  
-const string = prompt('Enter a string or number: ');  
+// // accept the string or number from the prompt  
+// const string = prompt('Enter a string or number: ');  
   
-const value = validatePalin(string);  
+// const value = validatePalin(string);  
   
-console.log(value);  
+// console.log(value);  
 
 // palindrome 2
+function palindromeFun (str )  
+{  
+// convert the string into an array using the string.split() function  
+const arrValue = string.split (''); //   
+  
+// use reverse() method to reverse the array values  
+const reveArrVal = arrValue.reverse();   
+  
+// use join() method to group the array values into the string  
+const revString = reveArrVal.join('');  
+  
+if (string == revString) // if string condition is equal to the revString  
+{  
+alert('It is a Palindrome string '); // print the Palindrome   
+}  
+else {  
+alert (' It is not a Palindrome string' ); // if the condition is not true.  
+}  
+}  
+// take a string from the user  
+const string = prompt( ' Enter the string to check Palindrome ');  
+const value = palindromeFun (string); // call the function  
+console.log(value); 
