@@ -407,4 +407,4 @@ countCard(2);
 // console.log(value); 
 
 
-// next algo 
+// next algo not
