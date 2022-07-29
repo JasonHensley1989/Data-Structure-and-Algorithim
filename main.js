@@ -405,3 +405,6 @@ countCard(2);
 // const string = prompt( ' Enter the string to check Palindrome ');  
 // const value = palindromeFun (string); // call the function  
 // console.log(value); 
+
+
+// next algo 
